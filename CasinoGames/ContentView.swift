@@ -10,10 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Home page")
+            Text("Put your games in a new file for now, make a new branch for it too. Get rid of this text later")
+            
+            
+            TabView {
+                
+            }
         }
         .padding()
     }
