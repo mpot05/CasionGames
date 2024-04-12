@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Card: Hashable {
+struct Card: Hashable, Identifiable {
     var suit: String
     var symbol: String
     var imageName:String = ""
